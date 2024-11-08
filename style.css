@@ -1,0 +1,44 @@
+.item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.item-caption{
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    bottom: 4%;
+
+
+}
+
+.display-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0,0.5) ;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.display-image{
+    height: 50%;
+    width: 45%;
+    background-image: url(images/3.jpg);
+    background-size: cover;
+}
+.display-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.fa-xmark{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 25px;
+}
